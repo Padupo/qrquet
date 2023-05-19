@@ -17,11 +17,11 @@ function v129(p15)
     return v130;
 end;
 
-Notification.new("<Color=Purple>An Sit Hub<Color=/>"):Display()
-Notification.new("<Color=Blue>Facebook:<Color=/> <Color=Red>An Sit<Color=/>"):Display()
-Notification.new("<Color=Blue>Discord:<Color=/> <Color=Red>AnSit#0650<Color=/>"):Display()
+Notification.new("<Color=Purple>Key Râu Con Cax<Color=/>"):Display()
+Notification.new("<Color=Blue>Youtube:<Color=/> <Color=Red>Hòa Poy Tv<Color=/>"):Display()
+Notification.new("<Color=Blue>Nhớ Xem:<Color=/> <Color=Red>Video Để Biết Thông Tin No Kick#0650<Color=/>"):Display()
 wait(1.5)
-Notification.new("<Color=Green>GUI WILL LOAD IN :<Color=/>"):Display()
+Notification.new("<Color=Green>Đang Tiến Hành Chạy Hack :<Color=/>"):Display()
 wait(1.5)
 Notification.new("<Color=Black>1<Color=/>"):Display()
 wait(1)
@@ -29,7 +29,7 @@ Notification.new("<Color=Black>2<Color=/>"):Display()
 wait(1)
 Notification.new("<Color=Black>3<Color=/>"):Display()
 wait(0.5)
-Notification.new("<Color=Yellow>Thanks For Using <3<Color=/>"):Display()
+Notification.new("<Color=Yellow>Cảm ơn đã sử dụng <3<Color=/>"):Display()
 wait(0.5)
 
 highChestOnly = true
