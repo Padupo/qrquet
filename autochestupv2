@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Menu Hack Beli Vip",Name = "Loading...", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
+local Window = OrionLib:MakeWindow({IntroText = "Menu Hack Beli Vip",Name = "Super Chest", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
 spawn(function()
     while wait(0.00001) do
         p22(v9)
@@ -33,6 +33,26 @@ MainTab:AddButton({
   	end    
 })
 
+MainTab:AddButton({
+	Name = " ",
+	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
+  	end    
+})
+MainTab:AddButton({
+	Name = " ",
+	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
+  	end    
+})
+MainTab:AddButton({
+	Name = " ",
+	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
+  	end    
+})
+MainTab:AddButton({
+	Name = " ",
+	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
+  	end    
+})
 MainTab:AddButton({
 	Name = " ",
 	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
