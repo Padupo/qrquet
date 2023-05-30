@@ -10,13 +10,13 @@ local MainTab = Window:MakeTab({
 
 -- Button
 MainTab:AddButton({
-	Name = "Fates Admin",
-	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	Name = "Auto Chest / Auto Random Sever",
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Padupo/scrnohop/main/oki"))();
   	end    
 })
 
 MainTab:AddButton({
-	Name = "Hat Hub",
+	Name = "Auto Chest/No Kick 100%/Yes Key Rau Den Chen Thanh",
 	Callback = function()
   		loadstring(game:HttpGet('https://pastebin.com/raw/SLPrghST'))()
   	end    
