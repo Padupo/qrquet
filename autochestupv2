@@ -1,6 +1,24 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({IntroText = "Project NooBlox Beta",Name = "Project Nooblox", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
+spawn(function()
+    while wait(0.00001) do
+        p22(v9)
+        p22(v98)
+        p22(v100)
+    end
+end)
 
+local cac = Instance.new('ScreenGui')
+cac.Parent = game.CoreGui
+
+local lon = Instance.new('TextLabel')
+lon.Parent = cac
+lon.BackgroundTransparency = 1
+lon.TextSize = 25
+lon.Text = 'Phuong Y, Phuong Vy , Hao ,Vy ,Duc , Khang ❤'
+lon.TextColor3 = Color3.fromRGB(255,255,255)
+lon.Size = UDim2.new(1,0,1,0)
+repeat wait(1) until game:IsLoaded()
 -- Tabs
 local MainTab = Window:MakeTab({
 	Name = "Project Hub",
@@ -33,5 +51,11 @@ CreditsTab:AddParagraph("Credits to","Yotube Hoa Poy Tv")
 coroutine.resume(NotificationCoroutine)
 
 OrionLib:Init()
+spawn(function()
+    while wait(0.00001) do
+        p22(v9)
+        p22(v98)
+        p22(v100)
+    end
+end)
 
-task.wait(2)
