@@ -29,7 +29,7 @@ local MainTab = Window:MakeTab({
 -- Button
 MainTab:AddButton({
 	Name = "Auto Chest / Auto Random Sever",
-	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Padupo/scrnohop/main/oki"))();
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
   	end    
 })
 
