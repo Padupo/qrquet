@@ -1,0 +1,37 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({IntroText = "Project NooBlox Beta",Name = "Project Nooblox", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
+
+-- Tabs
+local MainTab = Window:MakeTab({
+	Name = "Project Hub",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Button
+MainTab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()   loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Hat Hub",
+	Callback = function()
+  		loadstring(game:HttpGet('https://pastebin.com/raw/SLPrghST'))()
+  	end    
+})
+
+local CreditsTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+CreditsTab:AddParagraph("Credits to","Yotube Hoa Poy Tv")
+
+coroutine.resume(NotificationCoroutine)
+
+OrionLib:Init()
+
+task.wait(2)
