@@ -36,7 +36,7 @@ MainTab:AddButton({
 MainTab:AddButton({
 	Name = "Auto Chest/No Kick 100%/Yes Key Rau Den Chen Thanh",
 	Callback = function()
-  		loadstring(game:HttpGet('https://pastebin.com/raw/SLPrghST'))()
+  		loadstring(game:HttpGet('https://raw.githubusercontent.com/Padupo/qrquet/main/tess'))()
   	end    
 })
 
