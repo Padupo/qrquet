@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Project NooBlox Beta",Name = "Project Nooblox", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
+local Window = OrionLib:MakeWindow({IntroText = "Menu Hack Beli Vip",Name = "Loading...", HidePremium = false, SaveConfig = true, ConfigFolder = "ProjectBlox"})
 spawn(function()
     while wait(0.00001) do
         p22(v9)
@@ -15,13 +15,13 @@ local lon = Instance.new('TextLabel')
 lon.Parent = cac
 lon.BackgroundTransparency = 1
 lon.TextSize = 13
-lon.Text = 'Cập Nhật Các Bản Hack VIP Youtube Hòa Poy Tv❤'
+lon.Text = 'Cập Nhật Các Bản Hack VIP Tại Kênh Youtube Hòa Poy Tv❤'
 lon.TextColor3 = Color3.fromRGB(255,255,255)
 lon.Size = UDim2.new(1,0,1,0)
 repeat wait(1) until game:IsLoaded()
 -- Tabs
 local MainTab = Window:MakeTab({
-	Name = "Project Hub",
+	Name = "Menu Hack",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -34,6 +34,11 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
+	Name = " ",
+	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
+  	end    
+})
+MainTab:AddButton({
 	Name = "Auto Chest/No Kick 100%/Yes Key Rau Den Chen Thanh",
 	Callback = function()
   		loadstring(game:HttpGet('https://raw.githubusercontent.com/Padupo/qrquet/main/tess'))()
@@ -41,7 +46,7 @@ MainTab:AddButton({
 })
 
 local CreditsTab = Window:MakeTab({
-	Name = "Credits",
+	Name = "Ghi Công",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
