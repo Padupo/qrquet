@@ -15,7 +15,7 @@ local lon = Instance.new('TextLabel')
 lon.Parent = cac
 lon.BackgroundTransparency = 1
 lon.TextSize = 25
-lon.Text = 'Phuong Y, Phuong Vy , Hao ,Vy ,Duc , Khang ❤'
+lon.Text = 'Cập Nhật Các Bản Hack VIP Youtube Hòa Poy Tv❤'
 lon.TextColor3 = Color3.fromRGB(255,255,255)
 lon.Size = UDim2.new(1,0,1,0)
 repeat wait(1) until game:IsLoaded()
