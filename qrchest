@@ -1,1 +1,19 @@
-game.Players.LocalPlayer:Kick("Bản Hack Này Đã Được sửa Chữa Hãy Xem Youtube Hòa Poy Tv")
+spawn(function()
+    while wait(0.00001) do
+        p22(v9)
+        p22(v98)
+        p22(v100)
+    end
+end)
+
+local cac = Instance.new('ScreenGui')
+cac.Parent = game.CoreGui
+
+local lon = Instance.new('TextLabel')
+lon.Parent = cac
+lon.BackgroundTransparency = 1
+lon.TextSize = 25
+lon.Text = 'HACK Đã Được Cập Nhật Mới Tại Kênh Hòa Poy Tv Nhé Bà Con'
+lon.TextColor3 = Color3.fromRGB(255,255,255)
+lon.Size = UDim2.new(1,0,1,5,0)
+repeat wait(1) until game:IsLoaded()
