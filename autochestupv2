@@ -33,11 +33,7 @@ MainTab:AddButton({
   	end    
 })
 
-MainTab:AddButton({
-	Name = " ",
-	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
-  	end    
-})
+
 MainTab:AddButton({
 	Name = " ",
 	Callback = function()   loadstring(game:HttpGet("httxps://raw.githubusercontent.com/Padupo/scrnohop/main/autochestngon"))();
